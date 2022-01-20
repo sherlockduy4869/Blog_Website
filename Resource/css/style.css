@@ -11,3 +11,12 @@ html{
     background-color: #ffffff;
     text-rendering: optimizeLegibility;
 }
+
+/*HEADER AREA*/
+header{
+    background-image: url("../img/Background.png");
+    background-size: cover;
+}
+.logo{
+    width: 280px;
+}
