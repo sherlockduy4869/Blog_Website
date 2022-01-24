@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./Resource/css/style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="Vendors/css/grid.css">
     </head>
     <body>
         <header>
@@ -20,11 +21,94 @@
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <div class="clearfix"></div>
             <div class="row">
-                <h1 class="heading-main-text"> We will study <br> English together. <br> So join with us</h1>
-                <a href="" class="btn">Tell me more</a>
-                <a href="" class="btn">Join us</a>
+                <div class="heading-main-box">
+                    <h1> We will study <br> English together. <br> So join with us</h1>
+                    <a href="#" class="btn">Tell me more</a>
+                    <a href="#" class="btn">Join us</a>
+                </div>
             </div>
         </header>
+        <section class="about-section">
+            <div class="row">
+                <h2>About Us</h2>
+                <p class="p-long">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Eveniet, sequi. Possimus voluptatem accusamus explicabo 
+                    assumenda vitae ea voluptas commodi saepe eius, quo beatae 
+                    ullam repudiandae nobis laborum. Vitae, odit dolor.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4 about-picture">
+                    <img src="Resource/img/Pic1.png" alt="Picture 1">
+                    <p class="picture-title">
+                        City 1
+                    </p>
+                </div>
+
+                <div class="col span-1-of-4 about-picture">
+                    <img src="Resource/img/Pic2.png" alt="Picture 2">
+                    <p class="picture-title">
+                        City 2
+                    </p>
+                </div>
+
+                <div class="col span-1-of-4 about-picture">
+                    <img src="Resource/img/Pic3.png" alt="Picture 3">
+                    <p class="picture-title">
+                        City 3
+                    </p>
+                </div>
+
+                <div class="col span-1-of-4 about-picture">
+                    <img src="Resource/img/Pic4.png" alt="Picture 4">
+                    <p class="picture-title">
+                        City 4
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="product-section">
+            <h2>Products</h2>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="product-box">
+                        <h3>Pronunciation class</h3>
+                        <p class="product-price">19$ <span>/ month</span></p>
+                        <ul>
+                            <li><i class="fas fa-check small-icon"></i>Native voice</li>
+                            <li><i class="fas fa-check small-icon"></i>Master IPA</li>
+                        </ul>
+                        <a href="#" class="btn">JOIN US</a>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-3">
+                    <div class="product-box">
+                        <h3>Speaking class</h3>
+                        <p class="product-price">25$ <span>/ month</span></p>
+                        <ul>
+                            <li><i class="fas fa-check small-icon"></i>Native speaking</li>
+                            <li><i class="fas fa-check small-icon"></i>Speaking naturally</li>
+                        </ul>
+                        <a href="#" class="btn">JOIN US</a>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-3">
+                    <div class="product-box">
+                        <h3>Pronunciation class</h3>
+                        <p class="product-price">25$ <span>/ month</span></p>
+                        <ul>
+                            <li><i class="fas fa-check small-icon"></i>Native speech</li>
+                            <li><i class="fas fa-check small-icon"></i>Hearing English clearly</li>
+                        </ul>
+                        <a href="#" class="btn">JOIN US</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
