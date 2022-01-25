@@ -268,3 +268,42 @@ cite img{
     vertical-align: middle;
     margin-right: 5px;
 }
+
+/*SPONSOR AREA*/
+.sponsor-section{
+    background-color: #f4f4f4;
+}
+
+.sponsor-section h2{
+    margin-bottom: 50px;
+}
+
+.sponsor-showcase{
+    margin-left: 8%;
+}
+
+.sponsor-showcase li{
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-sponsor{
+    width: 140px;
+    cursor: pointer;
+}
+
+figcaption{
+    color: #265077;
+    font-weight: 900;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.logo-sponsor:hover,
+.logo-sponsor:active{
+    transform: scale(1.2);
+    transition: all .3s;
+}
