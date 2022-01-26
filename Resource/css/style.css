@@ -1,3 +1,4 @@
+/*DEFAULT SETUP*/
 *{
     padding: 0px;
     margin: 0px;
@@ -10,6 +11,10 @@ html{
     color: #5a5a5a;
     background-color: #ffffff;
     text-rendering: optimizeLegibility;
+}
+
+body{
+    overflow-x: hidden;
 }
 /*REUSEABLE COMPONENT*/
 .btn{
