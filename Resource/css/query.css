@@ -68,7 +68,31 @@
 
 /*Small phone to small tablet*/
 @media only screen and (max-width:767px){
+    .col{
+        width: 100%;
+    }
+
+    .main-nav{
+        visibility: hidden;
+    }
+
+    .logo{
+        width: 100px;
+        margin-left: 12%;
+    }
     
+    h1{
+        word-spacing: 2px;
+        font-size: 200%;
+    }
+
+    .heading-main-box{
+        transform: translate(-18%,-50%);
+    }
+
+    .heading-main-box .btn{
+        width: 15%;
+    }
 }
 
 /*Small phone from 0 to 480px*/
