@@ -162,5 +162,41 @@
 
 /*Small phone from 0 to 480px*/
 @media only screen and (max-width:480px){
-    
+    html{
+        font-size: 12px;
+    }
+
+    .logo{
+        margin-top: 60px;
+        margin-left: 130px;
+    }
+
+    h1{
+        font-size: 180%;
+        
+    }
+
+    .heading-main-box{
+        transform: translate(-10%,-55%);
+    }
+
+    .heading-main-box .btn{
+        width: 13%;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 3%;
+    }
+
+    .information li{
+        font-size: 15px;
+    }
+
+    .social-icon li{
+        font-size: 35px;
+    }
+
+    form{
+        width: 90%;
+        margin-left: 5%;
+    }
 }
