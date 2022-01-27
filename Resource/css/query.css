@@ -93,6 +93,71 @@
     .heading-main-box .btn{
         width: 15%;
     }
+    
+    .about-section .row.p-long{
+        font-size: 20px;
+    }
+
+    .picture-title{
+        font-size: 25px;
+
+    }
+
+    .about-picture{
+        text-align: center;
+    }
+
+    .about-picture img{
+        width: 70%;
+    }
+
+    .product-box{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .product-section .btn{
+        width: 60%;
+    }
+
+    .product-box ul li{
+        margin-left: 25%;
+    }
+
+    .testimonials-section .row .col{
+        margin-bottom: 30px;
+    }
+
+    figcaption{
+        visibility: hidden;
+    }
+
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    label{
+        margin-left: 38%;
+    }
+
+    .information{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .information li{
+        font-size: 18px;
+    }
+
+    .social-icon{
+        text-align: center;
+    }
+
+    .social-icon li{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
 }
 
 /*Small phone from 0 to 480px*/
