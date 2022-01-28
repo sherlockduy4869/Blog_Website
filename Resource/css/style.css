@@ -165,16 +165,33 @@ header{
     left: 0;
     width: 100%;
     z-index: 10;
+    padding-bottom: 10px;
 
 }
 
 .sticky .logo{
     margin-top: -5px;
+    margin-bottom: 0px;
 }
 
 .sticky .main-nav{
     margin-top: 10px;
 }
+
+.sticky .mobile-nav-icon{
+    top: 30px;
+}
+
+/*MOBILE NAVIGATION ICON*/
+.mobile-nav-icon{
+    font-size: 200%;
+    color: #6b95bd;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    display: none !important;
+}
+
 
 /*ABOUT SECTION*/
 .about-picture{

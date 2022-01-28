@@ -73,7 +73,11 @@
     }
 
     .main-nav{
-        visibility: hidden;
+        display: none;
+    }
+
+    .mobile-nav-icon{
+        display: block !important;
     }
 
     .logo{
@@ -160,6 +164,12 @@
     }
 }
 
+@media only screen and (max-width:570px){
+    .mobile-nav-icon{
+        right: 50px;
+    }
+}
+
 /*Small phone from 0 to 480px*/
 @media only screen and (max-width:480px){
     html{
@@ -198,5 +208,10 @@
     form{
         width: 90%;
         margin-left: 5%;
+    }
+
+    .mobile-nav-icon{
+        right: 50px;
+        top: 100px;
     }
 }
